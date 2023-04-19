@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/font.css">
+	<link href="./css/aos.css?ver=1.2.0" rel="stylesheet">
 	<title>Assignment 03</title>
 </head>
 
@@ -43,7 +44,7 @@
 	</section>
 
 	<section id="about">
-		<div class="container d-flex">
+		<div class="container d-flex" data-aos="fade-right" data-aos-delay="100">
 			<div id="target">
 				<h1 class="section-title">Mục tiêu nghề nghiệp</h1>
 				<p>
@@ -54,7 +55,7 @@
 					bản thân, cũng như hoàn thành tốt nhất công việc được giao.
 				</p>
 			</div>
-			<div id="personal-info">
+			<div id="personal-info" data-aos="fade-left" data-aos-delay="300">
 				<h1 class="section-title">Thông tin cá nhân</h1>
 				<ul>
 					<li><span>Giới tính</span> : Nam</li>
@@ -65,10 +66,10 @@
 					<li><span>Website</span> : https://jasontr.online</li>
 				</ul>
 				<div class="section-icon">
-					<i class="icon-twitter"></i>
-					<i class="icon-facebook"></i>
-					<i class="icon-gplus"></i>
-					<i class="icon-linkedin"></i>
+					<a href="https://www.twitter.com/jason1403"><i class="icon-twitter"></i></a>
+					<a href="https://www.facebook.com/hainguyentran14"><i class="icon-facebook"></i></a>
+					<a href="https://www.gmail.com"><i class="icon-gplus"></i></a>
+					<a href="https://www.linkedin.com/in/hai-tran1403/"><i class="icon-linkedin"></i></a>
 				</div>
 			</div>
 		</div>
@@ -77,168 +78,165 @@
 	<section id="job-info">
 		<div class="container">
 			<div class="row justify-content-center">
-				<div class="col-lg-5">
-					<div class="item">
-						<div class="item-header">
-							<h1>Kinh nghiệm</h1>
-							<i class="ic-toolbox"></i>
-						</div>
-						<div class="item-detail">
-							<h3>Full Stack Developer - Công ty Y</h3>
-							<small>05/2022 - <span>Hiện tại</span></small>
+				<div class="item col-lg-4 col-md-6" data-aos="fade-right" data-aos-delay="100">
+					<div class="item-header">
+						<h1>Kinh nghiệm</h1>
+						<i class="ic-toolbox"></i>
+					</div>
+					<div class="item-detail">
+						<h3>Full Stack Developer - Công ty Y</h3>
+						<small>05/2022 - <span>Hiện tại</span></small>
+						<ul>
+							<li>Xây dựng, phát triển Website dựa trên thiết kế và yêu cầu đã có.</li>
+							<li>Phân tích và thiết kế database, sử dụng các hệ quản trị CSDL (MySQL, SQLServer,
+								NoSQL, ...)
+								và viết được các câu
+								truy vấn.
+							</li>
+							<li>Sử dụng ngôn ngữ server-side (Python, Java, ...) để xây dụng các Web Service.</li>
+						</ul>
+					</div>
+				</div>
+				<div class="item col-lg-4 col-md-6" data-aos="fade-right" data-aos-delay="200">
+					<div class="item-header">
+						<h1>Học vấn</h1>
+						<i class="ic-pencil"></i>
+					</div>
+					<div class="item-detail">
+						<div class="edu-detail">
+							<h3>FUNiX</h3>
+							<small>06/2021 - 05/2022</small>
 							<ul>
-								<li>Xây dựng, phát triển Website dựa trên thiết kế và yêu cầu đã có.</li>
-								<li>Phân tích và thiết kế database, sử dụng các hệ quản trị CSDL (MySQL, SQLServer,
-									NoSQL, ...)
-									và viết được các câu
-									truy vấn.
+								<li>Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack.</li>
+								<li>GPA: 9 / 10.
 								</li>
-								<li>Sử dụng ngôn ngữ server-side (Python, Java, ...) để xây dụng các Web Service.</li>
+							</ul>
+						</div>
+						<div class="edu-detail">
+							<h3>Cử nhân - ĐH FPT</h3>
+							<small>08/2016 - 07/2019</small>
+							<ul>
+								<li>Chuyên ngành: Kỹ thuật phần mềm.</li>
+								<li>GPA: 3.2 / 4.
+								</li>
 							</ul>
 						</div>
 					</div>
-					<div class="item">
-						<div class="item-header">
-							<h1>Học vấn</h1>
-							<i class="ic-pencil"></i>
+				</div>
+				<div class="item col-lg-4 col-md-6" data-aos="fade-right" data-aos-delay="300">
+					<div class="item-header">
+						<h1>Hoạt động</h1>
+						<i class="ic-megaphone"></i>
+					</div>
+					<div class="item-detail">
+						<div class="edu-detail">
+							<h3>FPT Edu Hackathon 2019</h3>
+							<small>03/2019 - 05/2019</small>
+							<ul>
+								<li>Giải 3 bảng A.</li>
+								<li>Đề tài: Trang web về phân loại rác thải
+								</li>
+							</ul>
 						</div>
-						<div class="item-detail">
-							<div class="edu-detail">
-								<h3>FUNiX</h3>
-								<small>06/2021 - 05/2022</small>
-								<ul>
-									<li>Tốt nghiệp chứng chỉ doanh nghiệp nhánh Fullstack.</li>
-									<li>GPA: 9 / 10.
-									</li>
-								</ul>
-							</div>
-							<div class="edu-detail">
-								<h3>Cử nhân - ĐH FPT</h3>
-								<small>08/2016 - 07/2019</small>
-								<ul>
-									<li>Chuyên ngành: Kỹ thuật phần mềm.</li>
-									<li>GPA: 3.2 / 4.
-									</li>
-								</ul>
-							</div>
+						<div class="edu-detail">
+							<h3>Câu lạc bộ Z</h3>
+							<small>08/2016 - 08/2017</small>
+							<ul>
+								<li>Trưởng ban chuyên môn.</li>
+								</li>
+							</ul>
 						</div>
 					</div>
-					<div class="item">
-						<div class="item-header">
-							<h1>Hoạt động</h1>
-							<i class="ic-megaphone"></i>
-						</div>
-						<div class="item-detail">
-							<div class="edu-detail">
-								<h3>FPT Edu Hackathon 2019</h3>
-								<small>03/2019 - 05/2019</small>
-								<ul>
-									<li>Giải 3 bảng A.</li>
-									<li>Đề tài: Trang web về phân loại rác thải
-									</li>
-								</ul>
+				</div>
+
+				<div class="item col-lg-4 col-md-6" data-aos="fade-left" data-aos-delay="100">
+					<div class="item-header">
+						<h1>Sở thích</h1>
+						<i class="ic-telescope"></i>
+					</div>
+					<div class="item-detail">
+						<div class="hob-detail">
+							<div class="hob-item">
+								<i class="ic-megaphone"></i>
+								<p>Âm nhạc</p>
 							</div>
-							<div class="edu-detail">
-								<h3>Câu lạc bộ Z</h3>
-								<small>08/2016 - 08/2017</small>
-								<ul>
-									<li>Trưởng ban chuyên môn.</li>
-									</li>
-								</ul>
+							<div class="hob-item">
+								<i class="ic-strategy"></i>
+								<p>Chơi game</p>
+							</div>
+							<div class="hob-item">
+								<i class="ic-hotairballoon"></i>
+								<p>Du lịch</p>
+							</div>
+							<div class="hob-item">
+								<i class="ic-basket"></i>
+								<p>Nấu ăn</p>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-5">
-					<div class="item">
-						<div class="item-header">
-							<h1>Sở thích</h1>
-							<i class="ic-telescope"></i>
-						</div>
-						<div class="item-detail">
-							<div class="hob-detail">
-								<div class="hob-item">
-									<i class="ic-megaphone"></i>
-									<p>Âm nhạc</p>
+				<div class="item col-lg-4 col-md-6" data-aos="fade-left" data-aos-delay="200">
+					<div class="item-header">
+						<h1>Ngôn ngữ</h1>
+						<i class="ic-mic"></i>
+					</div>
+					<div class="item-detail">
+						<div class="language-detail">
+							<div class="language-item">
+								<h3>Tiếng Anh - IELTS 7.0</h3>
+								<div class="skill-level">
+									<span class="skill-level-bar good"></span>
+									<span class="skill-level-bar good"></span>
+									<span class="skill-level-bar"></span>
 								</div>
-								<div class="hob-item">
-									<i class="ic-strategy"></i>
-									<p>Chơi game</p>
-								</div>
-								<div class="hob-item">
-									<i class="ic-hotairballoon"></i>
-									<p>Du lịch</p>
-								</div>
-								<div class="hob-item">
-									<i class="ic-basket"></i>
-									<p>Nấu ăn</p>
+							</div>
+							<div class="language-item">
+								<h3>Tiếng Nhật - JLPT N4</h3>
+								<div class="skill-level">
+									<span class="skill-level-bar good"></span>
+									<span class="skill-level-bar"></span>
+									<span class="skill-level-bar"></span>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="item">
-						<div class="item-header">
-							<h1>Ngôn ngữ</h1>
-							<i class="ic-mic"></i>
-						</div>
-						<div class="item-detail">
-							<div class="language-detail">
-								<div class="language-item">
-									<h3>Tiếng Anh - IELTS 7.0</h3>
-									<div class="skill-level">
-										<span class="skill-level-bar good"></span>
-										<span class="skill-level-bar good"></span>
-										<span class="skill-level-bar"></span>
-									</div>
-								</div>
-								<div class="language-item">
-									<h3>Tiếng Nhật - JLPT N4</h3>
-									<div class="skill-level">
-										<span class="skill-level-bar good"></span>
-										<span class="skill-level-bar"></span>
-										<span class="skill-level-bar"></span>
-									</div>
-								</div>
-							</div>
-						</div>
+				</div>
+				<div class="item col-lg-4 col-md-6" data-aos="fade-left" data-aos-delay="300">
+					<div class="item-header">
+						<h1>Kỹ năng</h1>
+						<i class="ic-tools-2"></i>
 					</div>
-					<div class="item">
-						<div class="item-header">
-							<h1>Kỹ năng</h1>
-							<i class="ic-tools-2"></i>
+					<div class="item-detail">
+						<div class="skill-item">
+							<h3>HTML/CSS: Fundamental</h3>
+							<div class="skill-level">
+								<span class="skill-level-bar good"></span>
+								<span class="skill-level-bar"></span>
+								<span class="skill-level-bar"></span>
+							</div>
 						</div>
-						<div class="item-detail">
-							<div class="skill-item">
-								<h3>HTML/CSS: Fundamental</h3>
-								<div class="skill-level">
-									<span class="skill-level-bar good"></span>
-									<span class="skill-level-bar"></span>
-									<span class="skill-level-bar"></span>
-								</div>
+						<div class="skill-item">
+							<h3>Javascript: Intermediate</h3>
+							<div class="skill-level">
+								<span class="skill-level-bar good"></span>
+								<span class="skill-level-bar good"></span>
+								<span class="skill-level-bar"></span>
 							</div>
-							<div class="skill-item">
-								<h3>Javascript: Intermediate</h3>
-								<div class="skill-level">
-									<span class="skill-level-bar good"></span>
-									<span class="skill-level-bar good"></span>
-									<span class="skill-level-bar"></span>
-								</div>
+						</div>
+						<div class="skill-item">
+							<h3>NodeJS: Intermediate</h3>
+							<div class="skill-level">
+								<span class="skill-level-bar good"></span>
+								<span class="skill-level-bar good"></span>
+								<span class="skill-level-bar"></span>
 							</div>
-							<div class="skill-item">
-								<h3>NodeJS: Intermediate</h3>
-								<div class="skill-level">
-									<span class="skill-level-bar good"></span>
-									<span class="skill-level-bar good"></span>
-									<span class="skill-level-bar"></span>
-								</div>
-							</div>
-							<div class="skill-item">
-								<h3>Bootstrap 5: Fundamental</h3>
-								<div class="skill-level">
-									<span class="skill-level-bar good"></span>
-									<span class="skill-level-bar"></span>
-									<span class="skill-level-bar"></span>
-								</div>
+						</div>
+						<div class="skill-item">
+							<h3>Bootstrap 5: Fundamental</h3>
+							<div class="skill-level">
+								<span class="skill-level-bar good"></span>
+								<span class="skill-level-bar"></span>
+								<span class="skill-level-bar"></span>
 							</div>
 						</div>
 					</div>
@@ -255,7 +253,7 @@
 
 			<div class="cert row">
 				<div class="col-md-6">
-					<div class="cert-item">
+					<div class="cert-item" data-aos="flip-left" data-aos-delay="100">
 						<div class="cert-img"><img src="./images/Cert_WEB.png" alt=""></div>
 						<div class="cert-detail">
 							<p>Chứng chỉ lập trình WEB - FUNiX</p>
@@ -267,7 +265,7 @@
 					</div>
 				</div>
 				<div class="col-md-6">
-					<div class="cert-item">
+					<div class="cert-item" data-aos="flip-right" data-aos-delay="200">
 						<div class="cert-img"><img src="./images/Cert_PRF.png" alt=""></div>
 						<div class="cert-detail">
 							<p>Chứng chỉ lập trình Javascript - FUNiX</p>
@@ -281,7 +279,7 @@
 			</div>
 			<div class="cert row">
 				<div class="col-md-6">
-					<div class="cert-item">
+					<div class="cert-item" data-aos="flip-left" data-aos-delay="300">
 						<div class="cert-img"><img src="./images/Cert_DBI.png" alt=""></div>
 						<div class="cert-detail">
 							<p>Chứng chỉ thiết kế database - FUNiX</p>
@@ -304,7 +302,7 @@
 				</h1>
 				<div class="project-items row">
 					<div class="col-lg-4">
-						<div class="project-item">
+						<div class="project-item" data-aos="zoom-out-up" data-aos-delay="200">
 							<div class="project-image"><img src="./images/project_1.png" alt=""></div>
 							<div class="project-header">
 								<p>CV Cá nhân</p>
@@ -331,7 +329,7 @@
 					</div>
 
 					<div class="col-lg-4">
-						<div class="project-item">
+						<div class="project-item" data-aos="zoom-out-up" data-aos-delay="400">
 							<div class="project-image"><img src="./images/project_2.png" alt=""></div>
 							<div class="project-header">
 								<p>Trang web quản lý thú cưng</p>
@@ -360,7 +358,7 @@
 					</div>
 
 					<div class="col-lg-4">
-						<div class="project-item">
+						<div class="project-item" data-aos="zoom-out-up" data-aos-delay="600">
 							<div class="project-image"><img src="./images/project_3.png" alt=""></div>
 							<div class="project-header">
 								<p>Trang web xem tin tức</p>
@@ -395,20 +393,26 @@
 		<div class="container">
 			<div class="footer-items">
 				<div class="footer-item">
-					<i class="icon-facebook-circled"></i>
-					<span>Facebook</span>
+					<a href="https://www.facebook.com/hainguyentran14"><i class="icon-facebook-circled"></i>
+						<span>Facebook</span></a>
 				</div>
 				<div class="footer-item">
-					<i class="icon-linkedin-circled"></i>
-					<span>LinkedIn</span>
+					<a href="https://www.linkedin.com/in/hai-tran1403/"><i class="icon-linkedin-circled"></i>
+						<span>LinkedIn</span>
+					</a>
 				</div>
 				<div class="footer-item">
-					<i class="icon-github-circled"></i>
-					<span>Github</span>
+					<a href="https://github.com/jasontran1403">
+						<i class="icon-github-circled"></i>
+						<span>Github</span>
+					</a>
 				</div>
 			</div>
 		</div>
 	</section>
+
+	<script src="./scripts/aos.min.js?ver=1.2.0"></script>
+	<script src="./scripts/main.js?ver=1.2.0"></script>
 </body>
 
 </html>
